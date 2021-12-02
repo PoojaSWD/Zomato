@@ -4,10 +4,10 @@ var dotenv = require('dotenv');
 var mongo = require('mongodb');
 var MongoClient = mongo.MongoClient;
 dotenv.config();
-var mongoUrl = process.env.MongoLiveUrl;
+var mongoUrl = 'mongodb+srv://local:testuser@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority'
 var cors = require('cors')
 const bodyParser = require('body-parser')
-var port = 'mongodb+srv://local:testuser@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority'
+var port = process.env.PORT || 8124;
 // save the database connection
 var db;
 
