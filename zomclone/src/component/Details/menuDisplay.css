@@ -1,0 +1,51 @@
+.card{
+    width: 27rem;
+    height: 345px;
+    box-shadow: 5px 5px 5px 5px grey;
+    display: inline-block !important;
+    background-image:url(https://i.ibb.co/MSjkwyn/background3.jpg);
+    color:white !important;
+}
+
+.col-md-2 {
+    width: 19.666667%;
+}
+
+#menuimg{
+    height:150px;
+    width:100%;
+}
+
+.card-title{
+    color:orangered;
+}
+
+#menutype{
+    margin-left: 81px;
+    color:#ffd400;
+}
+
+.cartbuttons {
+    height: 45px;
+    width: 50px;
+    font-size: 20px;
+    margin-left: 7%;
+}
+
+#cartadd {
+    margin-top: -80%;
+    height: 45px;
+    width: 50px;
+    background-color:#0ee00e;;
+}
+
+
+#cartremove {
+    height: 45px;
+    width: 50px;
+    margin-top: -19%;
+    margin-left: 63%;
+    position: absolute;
+    float: right;
+    background-color:#ff0e07;
+}

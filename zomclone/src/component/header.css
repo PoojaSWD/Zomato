@@ -1,0 +1,40 @@
+body{
+    margin:auto;
+    background-color:rgba(128, 128, 128, 0.144);
+}
+
+#header{
+ height:60px;
+ background-color:rgba(128, 128, 128, 0.39);
+}
+
+
+
+#brand{
+    display:inline-block;
+    margin-left:3%;
+    font-size:50px;
+    color:#093f66;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
+}
+
+a{
+    color:#093f66;
+}
+
+.social{
+    display:inline-block;
+    margin-left:70%;
+   
+}
+
+.socialicon{
+    height:50px;
+    width:50px; 
+    margin-top:-30%;
+}

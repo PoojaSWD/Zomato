@@ -1,0 +1,87 @@
+#quicksearch{
+    
+    width:80%;
+    margin-left:10%;
+    margin-top: 36%;
+    
+}
+
+#quickheading{
+    color:rgb(5, 5, 77);
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    display:block;
+}
+
+#quicksubheading{
+    color:rgb(82, 74, 74);
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:block;
+    line-height: 2;
+}
+
+
+.maintilecontainer{
+    margin-left:4%;
+}
+.subtilecontainer{
+    height:181px;
+    width:30%;
+    box-shadow:10px 15px 20px blue;
+    display:inline-block;
+    margin-left:2%;
+    margin-top:2%;
+    background-image:url(https://i.ibb.co/MSjkwyn/background3.jpg);
+}
+
+.subtilecontainer:hover{
+
+    transform:rotate(5deg);
+}
+
+
+
+
+.tilecomponent1{
+    width:46%;
+    float:left;
+}
+
+.tilecomponent1 >img{
+    width:100%;
+    height:181px;
+
+}
+
+
+.tilecomponent2{
+    width:46%;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    
+    
+    
+}
+
+.componentheading{
+    color:rgb(190, 28, 22);
+    font-weight:bold;
+    font-size:30px;
+    text-decoration:none;
+    margin-top: -1%;
+}
+
+.componentheading >a{
+    text-decoration:none;
+    color:rgb(190, 28, 22);
+
+}
+.componentsubheading{
+    color:whitesmoke;
+    font-size:20px;
+    
+
+}

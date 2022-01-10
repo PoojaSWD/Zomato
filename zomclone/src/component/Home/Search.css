@@ -1,0 +1,85 @@
+
+#search{
+    height:500px;
+    width:100%;
+    background-image:url(https://i.ibb.co/Vq7GtNg/background2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-size: 100% 500px;
+    position:absolute;
+}
+
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    margin-left:45%;
+    margin-top:2%;
+    border-radius:50%;
+    font-size:60px;
+    text-align:center;
+    color:gold;
+    border: 10px solid#004b80;
+    animation:shakelogo 2s linear infinite;
+}
+
+@keyframes shakelogo{
+    0%, 7% {
+        transform: rotateZ(0);
+      }
+      15% {
+        transform: rotateZ(-15deg);
+      }
+      20% {
+        transform: rotateZ(10deg);
+      }
+      25% {
+        transform: rotateZ(-10deg);
+      }
+      30% {
+        transform: rotateZ(6deg);
+      }
+      35% {
+        transform: rotateZ(-4deg);
+      }
+      40%, 100% {
+        transform: rotateZ(0);
+      }
+}
+
+
+
+
+#logo > span{
+  margin-top: 16%;
+  margin-left: -29%;
+    position: absolute;
+}
+
+#heading{
+    color:white;
+    font-size:35px;
+    text-align:center;
+    margin:auto;
+    margin-top:2%;
+    background-color:rgb(22, 218, 224);
+    width:30%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#dropdown{
+    height:50px;
+    width:50%;
+    margin:auto;
+    margin-top:2%;
+}
+
+select{
+    height:40px;
+    width:49%;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+

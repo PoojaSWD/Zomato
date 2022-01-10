@@ -4,7 +4,7 @@ var dotenv = require('dotenv');
 var mongo = require('mongodb');
 var MongoClient = mongo.MongoClient;
 dotenv.config();
-var mongoUrl = 'mongodb+srv://local:testuser@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority'
+var mongoUrl = 'mongodb+srv://test:test@cluster0.hz8n9.mongodb.net/eduintern?retryWrites=true&w=majority'
 var cors = require('cors')
 const bodyParser = require('body-parser')
 var port = process.env.PORT || 8124;
