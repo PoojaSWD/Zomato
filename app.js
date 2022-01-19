@@ -156,7 +156,7 @@ app.put('/updateStatus/:id',(req,res) => {
 
 app.get('/orders/:email',(req,res) => {
     // var restid = Number(req.params.restid)
-    db.collection('restuarantmenu').find({email:req.params.email}).toArray((err,result) => {
+    db.collection('orders').find({email:req.params.email}).toArray((err,result) => {
         if(err) throw err;
         res.send(result)
     })
