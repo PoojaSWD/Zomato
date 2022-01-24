@@ -145,22 +145,20 @@ app.put('/updateStatus/:id',(req,res) => {
 })
 
 // return all the orders
-// app.get('/orders',(req,res) => {
-//     var que =req.query.email;
-//     console.log(que)
-//     db.collection('orders').find({email:que}).toArray((err,result) => {
-//         if(err) throw err;
-//         res.send(result)
-//     })
-// })
-
-app.get('/orders/:email',(req,res) => {
-    // var restid = Number(req.params.restid)
-    db.collection('orders').find({email:req.params.email}).toArray((err,result) => {
+app.get('/orders',(req,res) => {
+    db.collection('orders').find().toArray((err,result) => {
         if(err) throw err;
         res.send(result)
     })
 })
+
+// app.get('/orders/:email',(req,res) => {
+//     // var restid = Number(req.params.restid)
+//     db.collection('orders').find({email:req.params.email}).toArray((err,result) => {
+//         if(err) throw err;
+//         res.send(result)
+//     })
+// })
 
 app.post('/placeOrder',(req,res) => {
     console.log(req.body);
